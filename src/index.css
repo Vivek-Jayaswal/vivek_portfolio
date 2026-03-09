@@ -1,0 +1,27 @@
+@import "tailwindcss";
+:root {
+  --x: 50%;
+  --y: 50%;
+}
+
+#cursor-light {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  /* 
+  700px circle
+rgba(94,234,212,0.15) */
+  /* transparent 40% */
+
+  background:
+    radial-gradient(
+      700px circle at var(--x) var(--y),
+      rgba(0, 71, 60, 0.15),
+      transparent 70%
+    ),
+    radial-gradient(
+      400px circle at var(--x) var(--y),
+      rgba(2, 26, 38, 0.08),
+      transparent 70%
+    );
+}
