@@ -93,22 +93,22 @@ export const projects = [
     skills: ["HTML", "CSS", "JavaScript"],
     image: "/youtube.png",
   },
-  {
-    name: "Property Rental Platform",
-    description:
-      "A property rental platform built with React.js and Tailwind CSS, featuring responsive layouts, property listings, and user authentication.",
-    link: "https://vivekjayaswal.com",
-    skills: ["React.js", "Tailwind CSS", "JavaScript"],
-    image: "/property.png",
-  },
-  {
-    name: "Flipkart Clone",
-    description:
-      "A Flipkart-like e-commerce platform built with React.js and Tailwind CSS, featuring responsive layouts, product listings, and user authentication.",
-    link: "https://vivekjayaswal.com",
-    skills: ["React.js", "Tailwind CSS", "JavaScript"],
-    image: "/property.png",
-  },
+  // {
+  //   name: "Property Rental Platform",
+  //   description:
+  //     "A property rental platform built with React.js and Tailwind CSS, featuring responsive layouts, property listings, and user authentication.",
+  //   link: "https://vivekjayaswal.com",
+  //   skills: ["React.js", "Tailwind CSS", "JavaScript"],
+  //   image: "/property.png",
+  // },
+  // {
+  //   name: "Flipkart Clone",
+  //   description:
+  //     "A Flipkart-like e-commerce platform built with React.js and Tailwind CSS, featuring responsive layouts, product listings, and user authentication.",
+  //   link: "https://vivekjayaswal.com",
+  //   skills: ["React.js", "Tailwind CSS", "JavaScript"],
+  //   image: "/property.png",
+  // },
 ];
 
 export const skills = [
@@ -128,25 +128,24 @@ export const skills = [
   "Node.js",
   "Express.js",
   "MongoDB",
-]
+];
 
-export const collage =
-  {
-    institution: "Shri Ram Institute Of Science And Technology",
-    degree: "Bachelor of Technology (B.Tech)",
-    city : "Jabalpur, Madhya Pradesh",
-    branch : "Computer Science and Engineering",
-    duration: "2018 - 2022",
-    description:
-      "Graduated with a strong foundation in computer science principles, algorithms, and software development. Completed coursework in data structures, web development, and database systems.",
-  }
+export const collage = {
+  institution: "Shri Ram Institute Of Science And Technology",
+  degree: "Bachelor of Technology (B.Tech)",
+  city: "Jabalpur, Madhya Pradesh",
+  branch: "Computer Science and Engineering",
+  duration: "2018 - 2022",
+  description:
+    "Graduated with a strong foundation in computer science principles, algorithms, and software development. Completed coursework in data structures, web development, and database systems.",
+};
 
-  export const school = {
-    institution: "Govt. Higher Secondary School Martand No. 2",
-    degree: "PCM",
-    city : "Rewa, Madhya Pradesh",
-    branch : "Computer Science and Engineering",
-    duration: "2016 - 2018",
-    description:
-      "Graduated with a strong foundation in computer science principles, algorithms, and software development. Completed coursework in data structures, web development, and database systems.",
-  }
+export const school = {
+  institution: "Govt. Higher Secondary School Martand No. 2",
+  degree: "PCM",
+  city: "Rewa, Madhya Pradesh",
+  branch: "Computer Science and Engineering",
+  duration: "2016 - 2018",
+  description:
+    "Graduated with a strong foundation in computer science principles, algorithms, and software development. Completed coursework in data structures, web development, and database systems.",
+};
