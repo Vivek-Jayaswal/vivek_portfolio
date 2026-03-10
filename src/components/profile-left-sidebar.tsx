@@ -4,10 +4,10 @@ import { NavLink } from "react-router-dom";
 
 export function ProfileSideBar({ id }: { id: string }) {
   return (
-    <div className="sticky left-0 top-0 pl-28 pt-20 pb-6 h-screen w-full flex flex-col justify-between items-start">
+    <div className="lg:sticky lg:left-0 lg:top-0 lg:pl-28 lg:pt-20 lg:pb-6 p-4 md:p-10  pt-8 lg:h-screen w-full flex flex-col gap-8 pb-20 justify-between items-start">
       <div className="space-y-2">
-        <h1 className="text-5xl font-extrabold">Vivek Jayaswal</h1>
-        <h2 className="text-2xl font-semibold text-gray-300">
+        <h1 className="text-3xl lg:text-5xl font-extrabold">Vivek Jayaswal</h1>
+        <h2 className="text-lg lg:text-2xl font-semibold text-gray-300">
           Frontend Engineer
         </h2>
         <p className="text-gray-400 max-w-md">
@@ -16,7 +16,7 @@ export function ProfileSideBar({ id }: { id: string }) {
       </div>
 
       {/* Navigation */}
-      <div className="space-y-6">
+      <div className="space-y-6 lg:block hidden">
         {[
           { id: "about", label: "ABOUT", route: "/about" },
           { id: "experience", label: "EXPERIENCE", route: "/experience" },

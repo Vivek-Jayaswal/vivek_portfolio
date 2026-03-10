@@ -21,11 +21,11 @@ function App() {
   }, []);
 
   return (
-    <div className="h-screen w-full bg-[#0f172a] text-white grid grid-cols-[1.5fr_2fr]">
+    <div className="h-screen overflow-scroll lg:overflow-hidden box-border w-full bg-[#0f172a] text-white grid lg:grid-cols-[1.5fr_2fr]">
       {/* Cursor radial gradient */}
       <div
         id="cursor-light"
-        className="pointer-events-none fixed inset-0 z-0"
+        className="hidden lg:block pointer-events-none fixed inset-0 z-0"
       ></div>
 
       {/* Left Sidebar (Fixed) */}
